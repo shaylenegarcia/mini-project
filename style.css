@@ -228,7 +228,7 @@ SOCIAL
 
 .section__description--wrapper {
   display: flex;
-  width: 100;
+  width: 100%;
   padding: 0 24px;
   align-items: center;
 }
@@ -339,6 +339,13 @@ h1 {
   flex-direction: column;
 }
 .section__description--wrapper {
+  flex-direction: column;
+  width: 100%;
+
+}
+
+.section__description--para,
+.section__img--wrapper {
   width: 100%;
 }
 
